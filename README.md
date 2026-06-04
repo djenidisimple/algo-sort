@@ -8,7 +8,7 @@ On répéte cette comparaison jusqu'à ce que notre tableau soit trier
 ```
 
 #### Démo
-<img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif">
+![bubble sort](https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif)
 
 ### Trie par insertion
 
@@ -20,4 +20,17 @@ alors on va placer cette élément inférieur à son position exacte (cela on co
 ```
 
 #### Démo
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif">
+![insertion sort](https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif)
+
+### Trie par selection
+
+```bash
+On choisi un élément du tableau "( comme l'indice 0 )" que l'on va definir comme la valeur minimale puis on va tester que cette choix est correct.
+On va comparer alors la valeur minimale avec l'élément du tableau si aucun des éléments present n'est inférieur que celle ci
+alors on ne change rien mais dans le cas contraire on va remplacer le minimal par l'élément plus petit que lui puis on va la placer 
+dans l'index 0 si c'est la plus petite élément du tableau apres on va chercher le deuxième élément plus petite et on va
+la place à l'index 1 et ainsi de suite jusqu'à ce que le tableau soit trier entièrement.
+```
+
+#### Démo
+![alt text](image-1.png)
