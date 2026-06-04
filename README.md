@@ -33,4 +33,4 @@ la place à l'index 1 et ainsi de suite jusqu'à ce que le tableau soit trier en
 ```
 
 #### Démo
-![alt text](image-1.png)
+![alt text](./src/image.png)
