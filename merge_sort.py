@@ -10,6 +10,7 @@ def merge(left=[], right=[]):
             new_array.append(right[j])
             j+=1
     return new_array + left[i:] + right[j:]
+    
 def merge_sort(array):
     if len(array) <= 1:
         return array

@@ -33,4 +33,16 @@ la place à l'index 1 et ainsi de suite jusqu'à ce que le tableau soit trier en
 ```
 
 #### Démo
-![alt text](./src/image.png)
+![Trie par selection](https://miro.medium.com/v2/1*2H2kYDgD0u2kAM8xXrvC5w.gif)
+
+### Trie par fusion
+
+```bash
+On divise en 2 part égal le tableau jusqu'à ce qu'on arrive a un élément par tableau seulement, puis là
+on va fusionner les portions de tableau un à un. Alors pour fusionner on doit comparer le 1er élément du premier tableau avec le 1er élément
+du 2eme tableau et celle qui est le plus petite doit être place en premier position. Et donc on repète ce processus pour chaque portion de tableau puis
+à la fin on a un tableau trier
+```
+
+#### Démo
+![Trie par fusion](https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif)
