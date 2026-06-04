@@ -13,7 +13,7 @@ def bubble_sort(array):
         is_sort = test_sort(array)
     return array
 
-print("Bubble Sort\n")
+print("Bubble Sort")
 print("Unsorted array: [5, 2, 9, 1, 5, 6]")
 print("Sorted array: ", end="")
 print(bubble_sort([5, 2, 9, 1, 5, 6]))
