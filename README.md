@@ -46,3 +46,18 @@ du 2eme tableau et celle qui est le plus petite doit être place en premier posi
 
 #### Démo
 ![Trie par fusion](https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif)
+
+### Trie rapide ou Quick Sort
+
+```bash
+Il est aussi base sur le principe de diviser pour rêgner, on divise comme avec le trie par fusion
+mais la difference est qu'on choisi un pivot dans notre code on va d'abord choisir le dernier élément du 
+tableau comme pivot. Puis on va comparer avec l'élément du tableau ce pivot si l'élément est inférieur alors
+on la place à gauche de pivot et à droite si elle est supérieur ou égale au pivot. 
+puis apres avoir obtenu c'est deux nouveau sous tableau on va rechoisir un pivot pour chaque sous tableau
+et on repète ce processus jusqu'à ce que notre sous tableau ne contient qu'une élément car on sait déjà 
+qu'un tableau à une élément est trier.
+```
+
+#### Démo
+![Trie rapide](https://i.imgur.com/hR69aNY.png)
