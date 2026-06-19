@@ -4,7 +4,8 @@
 
 ```bash
 Compare l'élément du tableau choisi avec l'élément du tableau au position supérieur à lui!
-On répéte cette comparaison jusqu'à ce que notre tableau soit trier
+On répéte cette comparaison jusqu'à ce que notre tableau soit trier.
+Complexité : O(n*n)
 ```
 
 #### Démo
